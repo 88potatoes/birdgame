@@ -8,20 +8,19 @@ function IndexPopup() {
       style={{
         display: "flex",
         flexDirection: "column",
-        padding: 16
-      }}>
-      <h2>
-        Welcome to your
-        <a href="https://www.plasmo.com" target="_blank">
-          {" "}
-          Plasmo
-        </a>{" "}
-        Extension!
-      </h2>
-      <input onChange={(e) => setData(e.target.value)} value={data} />
-      <a href="https://docs.plasmo.com" target="_blank">
-        View Docs
-      </a>
+        alignItems: "center",
+        justifyContent: "center",
+        width: "500px",
+        height: "500px"}}>
+      <div id="canvas"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          width: "450px",
+          height: "400px",
+          backgroundColor: "blue"}}>
+        <h1>SOME TEXT</h1>
+      </div>
     </div>
   )
 }
